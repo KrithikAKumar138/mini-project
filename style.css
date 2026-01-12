@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1b1f26;
+}
+
+.calc-wrapper {
+  background: #222831;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow:
+    8px 8px 16px #15191f,
+    -8px -8px 16px #2f353d;
+}
+
+/* Display */
+.calc-screen {
+  height: 70px;
+  background: #222831;
+  border-radius: 14px;
+  margin-bottom: 20px;
+  padding: 15px;
+  text-align: right;
+  font-size: 28px;
+  color: #fff;
+  box-shadow:
+    inset 6px 6px 10px #15191f,
+    inset -6px -6px 10px #2f353d;
+}
+
+/* Grid */
+.calc-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 70px);
+  gap: 14px;
+}
+
+/* Buttons */
+.btn {
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background: #222831;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow:
+    6px 6px 10px #15191f,
+    -6px -6px 10px #2f353d;
+  transition: all 0.2s ease;
+}
+
+.btn:active {
+  box-shadow:
+    inset 4px 4px 8px #15191f,
+    inset -4px -4px 8px #2f353d;
+}
+
+/* Function buttons (AC, DE, %) */
+.func {
+  color: #7CFF6B;
+}
+
+/* Operator buttons */
+.op {
+  color: #7CFF6B;
+}
+
+/* Equal button */
+.equal {
+  background: #ff8c1a;
+  color: white;
+  box-shadow:
+    6px 6px 10px #b35f12,
+    -6px -6px 10px #ffb066;
+}
+
+.equal:active {
+  box-shadow:
+    inset 4px 4px 8px #b35f12,
+    inset -4px -4px 8px #ffb066;
+}
