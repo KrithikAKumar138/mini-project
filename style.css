@@ -20,7 +20,7 @@ body {
     -8px -8px 16px #2f353d;
 }
 
-/* Display */
+
 .calc-screen {
   height: 70px;
   background: #222831;
@@ -35,14 +35,13 @@ body {
     inset -6px -6px 10px #2f353d;
 }
 
-/* Grid */
+
 .calc-grid {
   display: grid;
   grid-template-columns: repeat(4, 70px);
   gap: 14px;
 }
 
-/* Buttons */
 .btn {
   height: 60px;
   border-radius: 50%;
@@ -63,17 +62,15 @@ body {
     inset -4px -4px 8px #2f353d;
 }
 
-/* Function buttons (AC, DE, %) */
+
 .func {
   color: #7CFF6B;
 }
 
-/* Operator buttons */
 .op {
   color: #7CFF6B;
 }
 
-/* Equal button */
 .equal {
   background: #ff8c1a;
   color: white;
